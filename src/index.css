@@ -1,0 +1,37 @@
+/* globals.css */
+@import "tailwindcss/base";
+@import "tailwindcss/components";
+@import "tailwindcss/utilities";
+@font-face {
+  font-family: 'TimeBurner';
+  src: url('../public/fonts/timeburner/timeburnernormal.ttf') format('truetype');
+  font-weight: 400;
+  font-style: normal;
+  font-display: swap;
+}
+
+@font-face {
+  font-family: 'TimeBurner';
+  src: url('../public/fonts/timeburner/timeburnerbold.ttf') format('truetype');
+  font-weight: 700;
+  font-style: normal;
+  font-display: swap;
+}
+
+@import url('https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700&display=swap');
+
+body {
+  font-family: 'Inter', sans-serif;
+}
+
+/* Example in global.css or a CSS module */
+.date-input-disabled::-webkit-calendar-picker-indicator {
+  display: none;
+}
+.date-input-disabled::-webkit-inner-spin-button {
+  display: none; /* Hide number spin arrows too if type was number */
+}
+.date-input-disabled::-webkit-clear-button {
+  display: none; /* Hide clear button */
+}
+/* Add similar styles for other browsers (Mozilla, Edge) if needed */

@@ -1,0 +1,16 @@
+{
+  "files": {
+    "main.css": "/static/css/main.c178eee4.css",
+    "main.js": "/static/js/main.ab16ebde.js",
+    "static/media/giri_bot_qr.jpg": "/static/media/giri_bot_qr.adfa387dcb8c90295bad.jpg",
+    "static/media/timeburnernormal.ttf": "/static/media/timeburnernormal.63ba87079cd67069aab5.ttf",
+    "static/media/timeburnerbold.ttf": "/static/media/timeburnerbold.f1829060500b25788149.ttf",
+    "index.html": "/index.html",
+    "main.c178eee4.css.map": "/static/css/main.c178eee4.css.map",
+    "main.ab16ebde.js.map": "/static/js/main.ab16ebde.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.c178eee4.css",
+    "static/js/main.ab16ebde.js"
+  ]
+}
