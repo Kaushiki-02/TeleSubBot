@@ -1,6 +1,6 @@
 // lib/constants.ts
 
-export const FRONTEND_BASE_URL = "http://localhost:5001";
+export const FRONTEND_BASE_URL = "http://13.233.144.61:5001/api/v1";
 export const API_BASE_URL =
   FRONTEND_BASE_URL + "/api/v1";
 // "http://localhost:5001/api/v1";
