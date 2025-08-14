@@ -5,7 +5,7 @@ const logger = require("../utils/logger");
 let bot;
 const token = process.env.TELEGRAM_BOT_TOKEN;
 
-if (token && token !== "your_telegram_bot_token" && !token.includes("replace_your_token")) {
+if (token && token !== "8049522832:AAH_NhruqhW57ejIU1u6zh6dqq3ADV8dcs8" && !token.includes("8049522832:AAH_NhruqhW57ejIU1u6zh6dqq3ADV8dcs8")) {
   // More specific check
   try {
     // Consider disabling polling if using webhooks primarily
